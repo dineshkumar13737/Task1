@@ -1,0 +1,29 @@
+organization_management/
+│
+├── organization_management/
+│   ├── _init_.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│
+├── core/
+│   ├── _init_.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── migrations/
+│   │   ├── _init_.py
+│   ├── models.py
+│   ├── permissions.py
+│   ├── serializers.py
+     ├── tests/
+│                ├── _init_.py
+│                 ├── test_models.py
+│                 ├── test_serializers.py
+│                 ├── test_permissions.py
+│   ├── urls.py
+│   ├── views.py
+│
+├── manage.py
+│
+└── requirements.txt
